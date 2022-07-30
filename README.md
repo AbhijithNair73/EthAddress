@@ -6,3 +6,8 @@ Etherscan. So I decided to build an application to do the same.
 
 Steps to clone and use.
 
+Future Ideas & Plan:
+To make it a ethereum crypto wallet with tokens
+  - User login and database management
+  - Highly secure
+  - Get the feed from mousemovement as bitaddress.org and then use it as a seed to generate private key
