@@ -1,0 +1,14 @@
+label {
+    display: block;
+}
+
+input[type="text"] {
+    width: 600px;
+}
+
+h2 {
+color: dimgrey}
+
+.dataContainer {
+    margin-left: 18px;
+}
