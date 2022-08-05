@@ -24,3 +24,4 @@ function clearAll()
     const elems = document.getElementsByName("pubkey");
     elems[0].value = "";
 }
+

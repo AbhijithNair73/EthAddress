@@ -12,3 +12,8 @@ color: dimgrey}
 .dataContainer {
     margin-left: 18px;
 }
+
+div#progressContainer {
+    margin-left: 20px;
+    margin-right: 10%;
+}
