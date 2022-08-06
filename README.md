@@ -15,3 +15,4 @@ To make it a ethereum crypto wallet with tokens
   - User login and database management
   - Highly secure
   - Get the feed from mousemovement as bitaddress.org and then use it as a seed to generate private key
+Generate QR from the private key and Eth address.
