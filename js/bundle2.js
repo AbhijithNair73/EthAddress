@@ -71,7 +71,30 @@ async function createEthAddressFromEntropy()
   afterElem.removeAttribute("hidden");
   outEthElem.innerText = accountDetail.address;
   outPrivElem.innerText = accountDetail.privateKey;
+  makeQR(accountDetail.address, "etherqr.png");
 }
+
+const makeQR = (url, filename) => {
+  var qrcode = new QRCode("qrcode", {
+    text: url,
+    width: 128,
+    height: 128,
+    colorDark: "#000000",
+    colorLight: "#ffffff",
+    correctLevel: QRCode.CorrectLevel.H
+  });
+  qrcode.makeCode(url);
+
+  setTimeout(() => {
+    let qelem = document.querySelector('#qrcode img');
+    let dlink = document.getElementById("qrdl");
+    let qr = qelem.getAttribute('src');
+    dlink.setAttribute('href', qr);
+    dlink.setAttribute('download','ether.png');
+    dlink.removeAttribute('hidden');
+  }, 500);
+}
+
 },{"keccak256":295,"web3":466}],2:[function(require,module,exports){
 module.exports={
     "name": "goerli",

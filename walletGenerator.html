@@ -10,6 +10,7 @@
     <script src="./js/bundle2.js" defer></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-default">
@@ -41,7 +42,13 @@
         <label for="Priv"> Private Key: </label>
         <textarea name="Priv" id="output2" cols="50" rows="2" readonly></textarea>
         <br>
-        <button id="Regenerate" onclick="window.location.reload(true)">Regenerate New Ethereum Address</button>
+        <h4>Ethereum Address QR:</h4>
+        <div id="qrcode"></div>
+        
+        <a class="btn btn-success" id='qrdl' hidden>Download</a>
+        <br>
+        <button class="btn btn-danger" id="Regenerate" onclick="window.location.reload(true)">Regenerate New Ethereum Address</button>
+
     </div>
     </body>
 </html>
