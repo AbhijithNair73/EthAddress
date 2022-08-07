@@ -5,12 +5,14 @@ Also, It can generate ethereum address from the provided public key, no need to 
 
 Snippets:
 Home: To generate ethereum address from public key.
+<img width="545" alt="home" src="https://user-images.githubusercontent.com/68697946/183309491-6bc9c67e-9b3e-4841-b69e-c7dd15459505.PNG">
 
 Wallet Generator:
 Fetching seed from mouse movement.
+<img width="892" alt="seed generation" src="https://user-images.githubusercontent.com/68697946/183309500-2370b214-8b0c-4999-8ce8-150a46ebc929.PNG">
 
 Account & QR generation.
-
+<img width="708" alt="QR-final" src="https://user-images.githubusercontent.com/68697946/183309506-8443c392-ddbf-4d61-8099-2b14c4a38b6b.PNG">
 
 
 Motivation:
